@@ -1,6 +1,7 @@
 import src.datapro
 import src.wpyfix as wpyfix
 
-testinput = '旅人'
+testinput = '夏雨'
 fw = wpyfix.FixWord(testinput)
-print(fw.word)
+print('input word', testinput)
+print('suggest words', fw.word)
